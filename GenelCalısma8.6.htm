@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Onay Kutusu</h1>
+        <form>
+            <input type="checkbox" name="eposta"> E-postası almak istiyorum
+            <br>
+            <input type="checkbox" name="askerlik"> Askerliğimi yaptım
+            <br>
+            <br>
+            <input type="submit" value="E-postası al">
+        </form>
+        <form>
+        <h1>Seçenek Kutusu</h1>
+        <form name="secenek">
+                <h2>Sevdiğiniz spor:</h2>
+                <input type="radio" name="spor" value="futbol" checked>futbol <!--checked sayesinde işaretli olarak önümüze gelecek-->
+                <input type="radio" name="spor" value="basketbol">Basketbol
+                <input type="radio" name="spor" value="voleybol">voleybol
+                <br>
+                <input type="submit">
+        </form>
+        <H1>Doğum Yeri Seçenek Listesi</H1>
+        <form>
+            <select name="dogumyeri" id="dyeri">
+                <option>Muş</option>
+                <option>Van</option>
+                <option>İzmir</option>
+                <option>Siirt</option>
+                <option selected>Bursa</option> <!--varsayılan olarak seçili gelmesini istiyorsan option selected olması gerek-->
+                <br>
+                <input type="submit" value="Yolla">
+                <br>
+                <input type="reset" value="İptal">
+            </select>
+        </form>
+        <h1>Resimli onay formu</h1>
+        <form name="onay" action="onay.php" method="get">
+            Kullanıcı Ad Soyad: <input type="text" name="adsoyad">
+            <br>
+            Parola: <input type="password" name="parola">
+            <br>
+            <input type="image" src="resimler/submit1.png" width="100">
+        </form>
+    </body>
+</html>

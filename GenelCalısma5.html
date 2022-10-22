@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Tablo Oluşturma</h1>
+        <table border="2"> <!--table border diyerek buradaki border tablomuzun kalınlığını belirlememizi sağlar-->
+            <tr><td>Ad Soyad</td><td>Mertcan Parlak</td></tr> <!--tr satır td ise hücredir tr-->
+            <tr><td>Numara</td><td>+90 530 897 02 16</td></tr> 
+        </table>
+        <h1>Tablo Biçimlendirme</h1>
+            <table border="3">
+            <caption>Ülke Nüfusları</caption> <!--tablonun üstüne başlık koymamızı sağlar-->
+            <thead>
+                <tr><td>Ülke</td><td>Nüfus</td></tr>
+            </thead>
+            <tbody>
+                <tr><td>Türkiye</td><td>80m</td></tr>
+                <tr><td>Sudan</td><td>15m</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td>Toplam Nüfusları</td><td>95m</td></tr>
+            </tfoot>
+            </table>
+        <h1>Hücre Birleştirme</h1>
+        <table border="2">
+            <caption>Ülke Nüfusları</caption>
+            <thead>
+                <tr><td>Ülke</td><td>Nüfus</td></tr>
+            </thead>
+            <tbody>
+                <tr><td>Türkiye</td><td>80m</td></tr>
+                <tr><td>Sudan</td><td>15m</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2">Toplam Nüfusları : 95m</td></tr> <!--colspan satırları birleştirir rownspan ise üst üste sütunları birleştirir-->
+            </tfoot>
+            </table>
+        </table>
+        <table border="2">
+        <h1>Tekrar Tablosu</h1>
+        <tr><th>Ad</th><th>Soyad</th></tr> <!--<th> tablo içinde kalın yazmamızı sağlar-->
+        <tr><td>mert</td><td>parlak</td></tr>
+        <tr><td>muratcan</td><td>turgut</td></tr> 
+        </table>
+    </body>
+</html>
